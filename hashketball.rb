@@ -208,6 +208,8 @@ number_of_rebounds = 0
       end
       end
 end
+end
+
 
 def most_points_scored
   
@@ -217,7 +219,6 @@ def most_points_scored
       binding.pry
     end
   end
-end
 end
 
 
