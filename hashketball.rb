@@ -216,7 +216,7 @@ def most_points_scored
   
   game_hash.each do |location, team_data|
     binding.pry
-    team_data[:players].each do |player_stats|
+    #team_data[:players].each do |player_stats|
       binding.pry
       #player_stats
       binding.pry
