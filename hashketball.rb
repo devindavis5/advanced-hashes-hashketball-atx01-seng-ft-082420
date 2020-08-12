@@ -220,7 +220,7 @@ def most_points_scored
       binding.pry
       #player_stats
       binding.pry
-    end
+    #end
   end
 end
 
