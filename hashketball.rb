@@ -214,13 +214,14 @@ end
 
 def most_points_scored
   
+  most_points = 0
+  player_with_most_points = ''
+  
   game_hash.each do |location, team_data|
-    binding.pry
-    #team_data[:players].each do |player_stats|
+    team_data[:players].each do |player_stats|
+      if player_stats[]
       binding.pry
-      #player_stats
-      binding.pry
-    #end
+    end
   end
 end
 
