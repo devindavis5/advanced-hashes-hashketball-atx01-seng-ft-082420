@@ -208,8 +208,16 @@ number_of_rebounds = 0
       end
       end
 end
-number_of_rebounds
-end
+
+def most_points_scored
+  
+  game_hash.each do |location, team_data|
+    team_data[:palyers].each do |player_stats|
+      #player_stats
+      binding.pry
+    end
+  end
+end 
 
 
 
